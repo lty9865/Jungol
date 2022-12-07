@@ -17,7 +17,7 @@ public class Main {
 		System.out.print("점수를 입력하세요. ");
 	}
 
-	public void PN() {
+	public void division() {
 		if (getScore() >= 80) {
 			System.out.println("축하합니다. 합격입니다.");
 		} else {
@@ -35,7 +35,7 @@ public class Main {
 				sc.close();
 				break;
 			}
-			m.PN();
+			m.division();
 		}
 	}
 }
