@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="dedug_LC"/>
+	<classpathentry kind="src" path="function1_LC"/>
+	<classpathentry kind="src" path="input_LC"/>
+	<classpathentry kind="src" path="operator_LC"/>
+	<classpathentry kind="src" path="print_LC"/>
+	<classpathentry kind="src" path="repeatControl1_LC"/>
+	<classpathentry kind="src" path="repeatControl2_LC"/>
+	<classpathentry kind="src" path="makeFigure_B"/>
+	<classpathentry kind="src" path="structure_LC"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
