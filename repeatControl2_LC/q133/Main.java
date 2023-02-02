@@ -1,4 +1,4 @@
-package q546;
+package q133;
 
 import java.util.Scanner;
 
@@ -9,16 +9,9 @@ public class Main {
 
         float result = 0;
         for (int i = 0; i < n; i++) {
-            int a = sc.nextInt();
-            result += a;
+            result += sc.nextInt();
         }
-        sc.close();
         result = result / n;
-        System.out.printf("avg : %.1f\n", result);
-        if (result >= 80) {
-            System.out.println("pass");
-        } else {
-            System.out.println("fail");
-        }
+        System.out.printf("%.2f", result);
     }
 }
